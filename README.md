@@ -1,4 +1,8 @@
-Degign de la base de donnée
+#MadaBag
+
+Le réseau d'échange pour envoyer et recevoir des colis de Madagascar
+
+Design de la base de donnée
 ===========================
 
 User => Par défaut les tables utilisées par Django
