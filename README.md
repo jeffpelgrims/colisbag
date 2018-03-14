@@ -1,6 +1,8 @@
-#MadaBag
+# MadaBag
 
-Le réseau d'échange pour envoyer et recevoir des colis de Madagascar
+## Le réseau d'échange pour envoyer et recevoir des colis de Madagascar
+
+Développez par Pelgrims Jean-Francois
 
 Design de la base de donnée
 ===========================
