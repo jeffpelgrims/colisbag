@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenue sur MadaBag</h1>
+    <p class="lead">Le réseau d'échange pour envoyer et recevoir des colis de Madagascar</p>
+    <hr class="my-4">
+    <p>Le concepte de ce site et de pouvoir mettre en relation des personnes partant ou arrivant de Madagascar avec des personnes souhaitant envoyer ou recevoir des colis.</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Les prochains départs</h3>
+
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    {% load static %}
+                <img class="card-img-top" src="{% static 'assets/jeff.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Jeff Pelgrims</h5>    
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Départ le : 28/04/2018</li>
+                    <li class="list-group-item">Poids disponible : 23kg</li>
+                    <li class="list-group-item">Poids par personnes : 5kg</li>
+                    <li class="list-group-item">Ville(s) de dépôt : Seilles, Wavre</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Réserver une place</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col">
+            <h3>Les arrivées</h3>
+
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="{% static 'assets/jeff.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeff Pelgrims</h5>    
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Départ le : 12/05/2018</li>
+                        <li class="list-group-item">Poids disponible : 23kg</li>
+                        <li class="list-group-item">Poids par personnes : 5kg</li>
+                        <li class="list-group-item">Ville(s) de dépôt : Fianarantsoa, Antananarivo</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Réserver une place</a>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
