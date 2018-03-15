@@ -1,6 +1,6 @@
-# MadaBag
+# Colis Bag
 
-## Le réseau d'échange pour envoyer et recevoir des colis de Madagascar
+## Le réseau d'échange pour envoyer et recevoir des colis partout dans le monde
 
 Développez par Pelgrims Jean-Francois
 
